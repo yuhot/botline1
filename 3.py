@@ -10,12 +10,11 @@ from io import StringIO
 from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
-cl = LINETCR.LINE()
-cl.login(token="EpWhlumZK46bRyu71l58.6S7B6iV24SxpyyIZPkjUga.S6TstSNeC0w0GxGFge6vC4RnZP/5VihzYkjd0ihCFSw=")
+cl = LINETCR.LINE()5VihzYkjd0ihCFSw=")
 cl.loginResult()
 
 ki1 = LINETCR.LINE()
-ki1.login(token="EpyzhKg0UNjs5X991Bx9.Z2jqcI8fppmz+7xOGNlyEq.5FDZGg+QtTL/aiuagAA2YRr2+snznZzq6nrHYJ0sJjI=")
+ki1.login(token="EpacLppiBzaggkEkt6d8.6S7B6iV24SxpyyIZPkjUga.+4vthLNsl93EBJPTRaf3nOt2ffWakmKxhPFFhlU0gYc=")
 ki1.loginResult()
 
 ki2 = LINETCR.LINE()
