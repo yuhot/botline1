@@ -6,6 +6,8 @@ GET TOKEN :
 - `Google Chrome`
 - `http://www.tanaka.co.id:6969`
 - `Bot Alphat : https://github.com/Nadyatjia/AlphatTJ`
+
+-[third.png]
 -
 Cara Install Bot Chucky :
 ------
