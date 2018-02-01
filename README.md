@@ -7,7 +7,7 @@ GET TOKEN :
 - `http://www.tanaka.co.id:6969`
 - `Bot Alphat : https://github.com/Nadyatjia/AlphatTJ`
 
--[third.png]
+-(third.png)
 -
 Cara Install Bot Chucky :
 ------
