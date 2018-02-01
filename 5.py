@@ -343,6 +343,19 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
+                     balas = ["แท็กทำไม",cName + " ฝากข้อความไว้นะครับ"]
+                     ret_ = "[ข้อความอัตโนมัติ] " + random.choice(balas)
+                     name = re.findall(r'@(\w+)', msg.text)
+                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
+                     mentionees = mention['MENTIONEES']
+                     for mention in mentionees:
+                           if mention['M'] in Bots:
+                                  cl.sendText(msg.to,ret_)
+                                  break            
+            if 'MENTION' in msg.contentMetadata.keys() != None:
+                 if wait["detectMention"] == True:
+                     contact = cl.getContact(msg.from_)
+                     cName = contact.displayName
                      balas = ["จะแท็กทำไมมากมาย-กูเล่นเกมอยู่",cName + ""]
                      ret_ = "[ข้อความอัตโนมัติ] " + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
@@ -360,6 +373,21 @@ def bot(op):
                                                             'STKID':'5507'
                                                         }
                                   cl.sendMessage(msg)
+                                  break
+                    
+            if 'MENTION' in msg.contentMetadata.keys() != None:
+                 if wait["kickMention"] == True:
+                     contact = cl.getContact(msg.from_)
+                     cName = contact.displayName
+                     balas = ["Dont Tag Me!! Im Busy",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","-_-","Alin lagi off", cName + " Kenapa Tag saya?","SPAM PC aja " + cName, "Jangan Suka Tag gua " + cName, "Kamu siapa " + cName + "?", "Ada Perlu apa " + cName + "?","Tenggelamkan tuh yang suka tag pake BOT","Tersummon -_-"]
+                     ret_ = "[Auto Respond] " + random.choice(balas)
+                     name = re.findall(r'@(\w+)', msg.text)
+                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
+                     mentionees = mention['MENTIONEES']
+                     for mention in mentionees:
+                           if mention['M'] in Bots:
+                                  cl.sendText(msg.to,ret_)
+                                  cl.kickoutFromGroup(msg.to,[msg.from_])
                                   break                   
 # ----------------- NOTIFED MEMBER JOIN GROUP
         if op.type == 17:
