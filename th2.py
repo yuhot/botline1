@@ -620,7 +620,7 @@ def bot(op):
                 if wait["leaveRoom"] == True:
                     cl.leaveRoom(msg.to)
 # ----------------- NOTIFED MEMBER OUT GROUP
-       if op.type == 15:
+        if op.type == 15:
             if op.param2 in bot1:
                 return
             cl.sendText(op.param1,"ไปสะล่ะ ไว้เจอกันใหม่น่ะ @  " + cl.getContact(op.param2).displayName + "  ลาก่อน\n～(^з^)-♡\n\n😍-[✭]-Ⓣ-Ⓗ-Ⓘ-Ⓡ-Ⓓ-[✭]-😍")
