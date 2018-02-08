@@ -268,7 +268,7 @@ wait = {
     "pname":{},
     "pro_name":{},
     "tag1":"แท็กทำไมมีอะไรหรือป่าว",
-    "tag2":"แท้กมามีธุระก้อฝากข้อความส่วนตัวนะ",
+    "tag2":"จะแท็กทำไม",
     "posts":False,
     }
 
@@ -551,7 +551,7 @@ def bot(op):
             if wait["Notifed"] == True:
                 if op.param2 in Bots:
                     return
-                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n􀜁􀄄􏿿 เเล้วพบกันใหม่นะ 􀜁􀄄􏿿")
+                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "ไปแร้วสะละ\n􀜁􀄄􏿿 เเล้วพบกันใหม่นะ 􀜁􀄄􏿿")
                 print "MEMBER OUT GROUP"
 
         if op.type == 17:
@@ -581,7 +581,7 @@ def bot(op):
             if wait["Notifedbot"] == True:
                 if op.param2 in Bots:
                     return
-                ki1.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n􀜁􀄁􏿿􂘁􀄗􏿿􂘁􀄅􏿿􂘁􀄌􏿿􂘁􀄃􏿿􂘁􀄏􏿿􂘁􀄍��􂘁􀄅􏿿􀜁􀄁􏿿\n\n[By. ตาต้อม บอทไลน์]")
+                ki1.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n􀜁􀄁􏿿􂘁􀄗􏿿􂘁􀄅􏿿􂘁􀄌􏿿􂘁􀄃􏿿􂘁􀄏􏿿􂘁􀄍��􂘁􀄅􏿿􀜁􀄁􏿿\n\n[By.-[✭]-Ⓣ-Ⓗ-Ⓘ-Ⓡ-Ⓓ-[✭]-]")
                 print "MEMBER HAS JOIN THE GROUP"
 
         if op.type == 19:
