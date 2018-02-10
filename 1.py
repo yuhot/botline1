@@ -11,40 +11,40 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="EpWhlumZK46bRyu71l58.6S7B6iV24SxpyyIZPkjUga.S6TstSNeC0w0GxGFge6vC4RnZP/5VihzYkjd0ihCFSw=")
+cl.login(token="EplILuGSz6UjrDTqEAx1.Vm537HvN52AR3XEMBzrY8q.8iSDoqCBWCQLI9KUfqsSzw5P60QawbBd0GkYfuaUano=")
 cl.loginResult()
 
 ki1 = LINETCR.LINE()
-ki1.login(token="EpKcMD4qjbM0tCDjPmv9.Z2jqcI8fppmz+7xOGNlyEq.32XztUCQ9xEpjpQlwcpyTfYJETgD2ubX9V4Mg31y11E=")
+ki1.login(token="EpmOYWr67hsJRnvUGTo8.a+rBQmFDhr1h0p9rGxiSIa.lmVkvVKuSCAHcLwqFd0Td6BRxy6VVq+BHknZFREwBAo=")
 ki1.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="EpyCK22hNJVKM0jL36xa.Ql+Iq95c4olkmxSaoadLoG.q6NbdCIrnsVDEhh/QOtjUi6OmvlTn+bDgbgVuHrh09o=")
+ki2.login(token="EprSw5HbIJibZwwGuje7.IIl6mGXQgEk8ta+Far31nW.uev7anyaWYKZGqbGUekKgLVeXIReOhlcbfHM+uA2lIc=")
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token="EpGvcG7JkNyEA5wwwLu6.SGby4XQI1gAOTET1lBqQ9G.coIXFC5dgqd75X9kFA2eX500d2R+6PhZf+ARFYs4SUU=")
+ki3.login(token="EpfO3E8Myz59xiG8rKfe.LPgn05IlcysG9sAiVov3lG.2Ki7yTz0z9WPHMhdbnmt00SXuuAKyICzBnABew8CY+0=")
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token="EpWQyd0Ii7JmcSaUdOPa.Q6+YE7DHLRb+4/UXmbKggG.HUGO5X2CGahN6YSosV4M44aGeFXb8tj6vELArbekXzQ=")
+ki4.login(token="EpcjLLTVF8M4A9AFXaE6.eCdIeiSEm0x1PuIauB0LbG.chuxXw73S6zsUvIB7yRCzrpFQxXBIjmzwUj9IXRayGQ=")
 ki4.loginResult()
 
-ūki5 = LINETCR.LINE()
-ki5.login(token="Eplftwaw4f4ez8k9mdp8.7fLTCfOW6V77bikOdoT16a.HDwV3xjYOQXDUAu+NiB1DsKEjz+lUaH9nHhSgn/fQuo=")
+ki5 = LINETCR.LINE()
+ki5.login(token="EpzIxYLMkTQZXX1Eqi53.1qhCVCUIIygqKgymwtiEeW.SxRK2ZezfvcyE3m4bBFuaEQquzkgjfIhYkvI5xt7+wc=")
 ki5.loginResult()
 
-#ki6 = LINETCR.LINE()
-#ki6.login(token="EoxwAg1N3lSmzFfZ0RX3.7f74kMOPgNIBSGT6+sawqW.zNL95ZZiregvvKd9pBWeCNQEvFK8pQVNb3TtBibAGEQ=")
-#ki6.loginResult()
+ki6 = LINETCR.LINE()
+ki6.login(token="EpOqHeHBBE9yMwcoNTc1.H9GWl+rGnkTSNudoN4XIeq.cumXNbrS8ARBM770C+nvNL7j86Sfvi+bYXoFTcO30Zk=")
+ki6.loginResult()
 
-#ki7 = LINETCR.LINE()
-#ki7.login(token="Eokv7n7uoq4tsmQWREkf.PqUHiCpv2pBtz8Q0TEIqxW.AgPVyVnLoG7UHyzHyQX/ICM4cQapp9zRSY2uGr95du8=")
-#ki7.loginResult()
+ki7 = LINETCR.LINE()
+ki7.login(token="EpnFk4qQ8fdPWlOiYD14.ohDmfNtxrs7njvwN+MIsXa.b/FhwMlTGkRCNk0/2K71PXU/XGrTSeo3KIuaR31h+nA=")
+ki7.loginResult()
 
-#ki8 = LINETCR.LINE()
-#ki8.login(token="EoxWhUuk78IXHPBgYgbe.nMGqEcQDlP6dAl/gilNatG.90ay26S0VfNPti2ZmKGDVlu6FJ3ivCsIUSVDa6kmBEA=")
-#ki8.loginResult()
+ki8 = LINETCR.LINE()
+ki8.login(token="EpJ7mKhwVDy1xs8Q9yCc.X+j/Aad8TvAy5X/6gt1u+a.b+dXWhCQViqRrKAQOj1PZS9aCykXQILPiwGPlqE2G3A=")
+ki8.loginResult()
 
 #ki9 = LINETCR.LINE()
 #ki9.login(token="EoluRsFVIBC6WfNecGja.XeTFQ55WYwSmXh4n0wOhcG.Zl36VJU8INIcSFmmXsMSXyUZW+gbjmQTgE6LxBQpCa4=")
@@ -269,16 +269,16 @@ helpMessage3 ="""
 ║✰ เช็คลบ ➠เช็คข้อความคนลบ
 ╚══════════════════════"""
 
-KAC=[cl,ki1,ki2,ki3,ki4,ki5]
+KAC=[cl,ki1,ki2,ki3,ki4,ki5,ki6,ki7,ki8]
 mid = cl.getProfile().mid
 Amid1 = ki1.getProfile().mid
 Amid2 = ki2.getProfile().mid
 Amid3 = ki3.getProfile().mid
 Amid4 = ki4.getProfile().mid
 Amid5 = ki5.getProfile().mid
-#Amid6 = ki6.getProfile().mid
-#Amid7 = ki7.getProfile().mid
-#Amid8 = ki8.getProfile().mid
+Amid6 = ki6.getProfile().mid
+Amid7 = ki7.getProfile().mid
+Amid8 = ki8.getProfile().mid
 #Amid9 = ki9.getProfile().mid
 #Amid10 = ki10.getProfile().mid
 
@@ -290,13 +290,13 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = ["ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8",mid,Amid1,Amid2,Amid3,Amid4,Amid5]
-self = ["ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8",mid,Amid1,Amid2,Amid3,Amid4,Amid]
-admin = "ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8"
-admsa = "ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8"
-owner = "ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8"
-adminMID = "ueacedbe88bf6e2c5cf6188b3a4a26e18"
-Creator= "ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8"
+Bots = ["ubcce77ee1567e766abdf17a66d9472f1","u87d8302ff46034ab6c9d40ce9f8c6211","u38774c1674d7452ecd2555a7fe6892c4","uc7f27e6800fcb55698e71fba193d54fc","ud501dcbdcba289819090660c59321e13","u11c0e2108b1e3345f5a5488051bd2506","u96918dd3988b0984a0f52688bce5772e","u8a22fa320c6a19e2bc4c0fdf011df537","u03f45ba8c7dd1d1d47d0ff5181722c88",mid,Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8]
+self = ["ubcce77ee1567e766abdf17a66d9472f1","u87d8302ff46034ab6c9d40ce9f8c6211","u38774c1674d7452ecd2555a7fe6892c4","uc7f27e6800fcb55698e71fba193d54fc","ud501dcbdcba289819090660c59321e13","u11c0e2108b1e3345f5a5488051bd2506","u96918dd3988b0984a0f52688bce5772e","u8a22fa320c6a19e2bc4c0fdf011df537","u03f45ba8c7dd1d1d47d0ff5181722c88",mid,Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8]
+admin = "ubcce77ee1567e766abdf17a66d9472f1"
+admsa = "ubcce77ee1567e766abdf17a66d9472f1"
+owner = "ubcce77ee1567e766abdf17a66d9472f1"
+adminMID = "ubcce77ee1567e766abdf17a66d9472f1"
+Creator= "ubcce77ee1567e766abdf17a66d9472f1"
 wait = {
     "alwayRead":False,
     "detectMention":True,    
@@ -421,23 +421,23 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-#contact = ki6.getProfile()
-#backup = ki6.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki6.getProfile()
+backup = ki6.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki7.getProfile()
-#backup = ki7.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki7.getProfile()
+backup = ki7.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki8.getProfile()
-#backup = ki8.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki8.getProfile()
+backup = ki8.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
 #contact = ki9.getProfile()
 #backup = ki9.getProfile()
@@ -1924,13 +1924,13 @@ def bot(op):
                     cl.sendText(msg.to, helpMessage + "")
                 else:
                     cl.sendText(msg.to,helpt)
-            elif msg.text in ["Cmd"]:
+            elif msg.text in ["คำสั่ง3"]:
                 print "\nHelp pick up..."
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to, helpMessage2 + "")
                 else:
                     cl.sendText(msg.to,helpt)
-            elif msg.text in ["Help2","Sett"]:
+            elif msg.text in ["Help2","คำสั่ง2"]:
                 print "\nHelp pick up..."
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to, helpMessage3 + "")
@@ -2112,7 +2112,7 @@ def bot(op):
                 ki10.sendMessage(msg)
 
 
-            elif "Me" == msg.text:
+            elif "คท" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': mid}
                 cl.sendMessage(msg)
@@ -2544,6 +2544,8 @@ def bot(op):
 
             elif "#v10" in msg.text:
                 cl.sendText(msg.to,"""[FUCK-U-BOT]""")
+
+           
 
 #==================================================
             elif msg.text in ["Invite"]:
@@ -2995,7 +2997,7 @@ def bot(op):
                 ki9.sendMessage(msg)
                 ki10.sendMessage(msg)
 
-            elif msg.text in ["K on","Contact:on","Contact on","K:on"]:
+            elif msg.text in ["K on","Contact:on","Contact on","เปิดอ่าน"]:
                 if wait["contact"] == True:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Sudah on Bosqu")
@@ -3011,7 +3013,7 @@ def bot(op):
                 if msg.from_ in admin:
                  wait["winvite"] = True
                  random.choice(KAC).sendText(msg.to,"send contact")
-            elif msg.text in ["K:off","Contact:off","Contact off","K off"]:
+            elif msg.text in ["K:off","Contact:off","Contact off","ปิดอ่าน"]:
                 if wait["contact"] == False:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Sudah off Bosqu")
@@ -3024,7 +3026,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"Ok Bosqu")
 
-            elif msg.text in ["Auto join on","Join on","Join:on","Auto join:on","Poin on"]:
+            elif msg.text in ["Auto join on","Join on","Join:on","Auto join:on","เข้าเปิด"]:
                 if wait["autoJoin"] == True:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Sudah on Bosqu")
@@ -3036,7 +3038,7 @@ def bot(op):
                         cl.sendText(msg.to,"Sudah on Bosqu")
                     else:
                         cl.sendText(msg.to,"Ok Bosqu")
-            elif msg.text in ["Join off","Auto join off","Auto join:off","Join:off","Poin off"]:
+            elif msg.text in ["Join off","Auto join off","Auto join:off","Join:off","เข้าปิด"]:
                 if wait["autoJoin"] == False:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Sudah off Bosqu")
@@ -3071,7 +3073,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"Bizarre ratings")
 
-            elif msg.text in ["Leave:on","Auto leave on","Auto leave:on","Leave on"]:
+            elif msg.text in ["Leave:on","Auto leave on","Auto leave:on","เปิดเข้า"]:
                 if wait["leaveRoom"] == True:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"already on")
@@ -3084,7 +3086,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"要了开。")
 
-            elif msg.text in ["Leave:off","Auto leave off","Auto leave:off","Leave off"]:
+            elif msg.text in ["Leave:off","Auto leave off","Auto leave:off","ปิดเข้า"]:
                 if wait["leaveRoom"] == False:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"already off")
@@ -3140,7 +3142,7 @@ def bot(op):
 
 #========================================
 #========================================
-            elif msg.text in ["Set"]:
+            elif msg.text in ["เชค"]:
                 print "Setting pick up..."
                 md = "─┅══THIRD══┅─\n\n"
                 if wait["likeOn"] == True: md+="􀬁􀆐􏿿 Auto like : on 􀜁􀄯􏿿\n"
@@ -3806,7 +3808,7 @@ def bot(op):
                     else:
                         pass
 #-------------------------------------------------
-            elif msg.text in ["Third All on","third all on"]:
+            elif msg.text in ["Third All on","เปิดหมุด"]:
                         cl.sendText(msg.to,"─┅══THIRD══┅─\n\n[FUCK-U-BOT]")
                         cl.sendText(msg.to,"Please wait......")
                         cl.sendText(msg.to,"Turn on all protection")
@@ -3820,7 +3822,7 @@ def bot(op):
                         cl.sendText(msg.to,"Blockinvite:on")
 
 
-            elif msg.text in ["Third All off","third all off"]:
+            elif msg.text in ["Third All off","ปิดหมุด"]:
                         cl.sendText(msg.to,"─┅══THIRD══┅─\n\n[FUCK-U-BOT]")
                         cl.sendText(msg.to,"Please wait......")
                         cl.sendText(msg.to,"Turn off all protection")
@@ -4341,13 +4343,13 @@ def bot(op):
                 wait['alwayRead'] = False
                 cl.sendText(msg.to,"Auto Sider OFF")
                 
-            elif msg.text in ["Tag on","Autorespon:on","Respon on","Respon:on"]:
+            elif msg.text in ["เปิดแทค"]:
                 wait["detectMention"] = True
                 cl.sendText(msg.to,"Auto Respon ON")
                 
-            elif msg.text in ["Tag off","Autorespon:off","Respon off","Respon:off"]:
+            elif msg.text in ["ปิดแทค"]:
                 wait["detectMention"] = False
-                cl.sendText(msg.to,"Auto Respon OFF")
+                cl.sendText(msg.to,"ปิดแทคแล้ว")
             
             elif msg.text in ["Kicktag on","Autokick:on","Responkick on","Responkick:on"]:
                 wait["kickMention"] = True
@@ -4526,7 +4528,7 @@ def bot(op):
                 cl.sendText(msg.to,"-- List Groups --\n\n"+ h +"\nTotal groups =" +" ["+str(len(gid))+"]")
             
 
-            elif "third tag all" == msg.text.lower():
+            elif "##" == msg.text.lower():
                  group = cl.getGroup(msg.to)
                  nama = [contact.mid for contact in group.members]
                  nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -5103,9 +5105,9 @@ def bot(op):
                     cl.sendText(msg.to, "Refreshed.")
                 except Exception as e:
                     cl.sendText(msg.to, str(e))
-            elif "Botcopy @" in msg.text:
+            elif "B @" in msg.text:
                    print "[COPY] Ok"
-                   _name = msg.text.replace("Botcopy @","")
+                   _name = msg.text.replace("B @","")
                    _nametarget = _name.rstrip('  ')
                    gs = cl.getGroup(msg.to)
                    targets = []
@@ -5797,8 +5799,8 @@ def bot(op):
                         r    = s.get(url, params=params)
                         mp3  = r.url
                         cl.sendAudioWithUrl(msg.to, mp3)
-            elif "พูด " in msg.text.lower():
-                    query = msg.text.lower().replace("พูด ","")
+            elif "K: " in msg.text.lower():
+                    query = msg.text.lower().replace("K: ","")
                     with requests.session() as s:
                         s.headers['user-agent'] = 'Mozilla/5.0'
                         url = 'https://google-translate-proxy.herokuapp.com/api/tts'
@@ -6078,7 +6080,7 @@ def bot(op):
 
         if op.type == 26:
             msg = op.message
-            if msg.text.lower() in ["1123"]:
+            if msg.text.lower() in ["#"]:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -6133,12 +6135,42 @@ def bot(op):
                 if jml > 500:
                     cl.sendText(msg.to,'Member melebihi batas.')
                 cnt = Message()
-                cnt.text = "THIRD TAG DONE : " + str(jml) +  " Members"
+                cnt.text = "จำนแทคเสดแล้วออกมาหน้าหี"
                 cnt.to = msg.to
                 cl.sendMessage(cnt)
             elif msg.text in [".me","me","Me"]:
-                        cl.sendText(msg.to,"You.....")
-            elif "/ตั้งเวลา" == msg.text.lower():
+                        cl.sendText(msg.to,"พ่องตาย...")
+            elif msg.text in ["555"]:
+                        cl.sendText(msg.to,"ขำไมมึงบ้าหรอสัส😂")
+            elif msg.text in ["แมวเป้"]:
+                        cl.sendText(msg.to,"เรียกทำไมคับที่รัก😘")
+            elif msg.text in ["เป้"]:
+                        cl.sendText(msg.to,"เรียกแล้วทักด้วยหน้าหี😘")
+            elif msg.text in ["พี่เป้"]:
+                        cl.sendText(msg.to,"จ้าเรียกไมเหงาหรอ😍")
+            elif msg.text in ["กำ"]:
+                        cl.sendText(msg.to,"กำพ่องกำแม่งอ่ะ😛")
+            elif msg.text in ["5555"]:
+                        cl.sendText(msg.to,"666666😛")
+            elif msg.text in ["เน่"]:
+                        cl.sendText(msg.to,"เน่แมวเน่เมียแมวเป้😘")
+            elif msg.text in ["แทค"]:
+                group = cl.getGroup(msg.to)
+                k = len(group.members)//100
+                for j in xrange(k+1):
+                    msg = Message(to=msg.to)
+                    txt = u''
+                    s=0
+                    d=[]
+                    for i in group.members[j*100 : (j+1)*100]:
+                        d.append({"S":str(s), "E" :str(s+8), "M":i.mid})
+                        s += 9
+                        txt += "@Krampus\n"
+                    msg.text = txt
+                    msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
+                    cl.sendMessage(msg)
+
+            elif "ตั้งเวลา" == msg.text.lower():
                 if msg.to in wait2['readPoint']:
                         try:
                             del wait2['readPoint'][msg.to]
@@ -6183,7 +6215,7 @@ def bot(op):
                     cl.sendText(msg.to, "ปิดการอ่านอัตโนมัต\nDelete reading point:\n" + datetime.now().strftime('%H:%M:%S'))
 
                     
-            elif "/อ่าน" == msg.text.lower():
+            elif "อ่าน" == msg.text.lower():
                     if msg.to in wait2['readPoint']:
                         if wait2["ROM"][msg.to].items() == []:
                              cl.sendText(msg.to, "SELFBOT PHET HACK BOT\n\nLurkers:\nNone")
