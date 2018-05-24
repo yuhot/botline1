@@ -94,8 +94,8 @@ class Talk:
   def qrLogin(self, callback):
     self.transport.path = self.auth_query_path
 
-    qr = self.client.getAuthQrcode(True, "Bot")
-    callback("Copy to Line and Click\nYour LINK QR is: line://au/q/" + qr.verifier)
+    qr = self.client.getAuthQrcode(True, "RAKEY")
+    callback("คัดลอกลิ้งค์\nไปวางที่ไลน์ละทำการล็อค line://au/q/" + qr.verifier)
 
     r = requests.get("https://" + self.host + self.wait_for_mobile_path, headers={
       "X-Line-Application": self.LA,
